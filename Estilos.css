@@ -1,0 +1,118 @@
+ 
+ body{ 
+  background-image:url("media/depositphotos_69939937-stock-illustration-tv-noise-seamless-texture.jpg");
+
+}
+.abs-center{
+  margin:1%;
+  display:flex;
+justify-content:center;
+ 
+}
+.container-flui{
+  width:max-content;
+}
+
+   #marco{
+    position:absolute;
+        z-index: 4;
+        width:50%
+    
+     } 
+     
+
+      .margen{ 
+        margin-top: 1%;
+        width: 20%;
+        height: 10rem;
+        
+      }
+      #info{
+        background:no-repeat center/80% url("media/botella.png");
+   
+    width: 100%;
+        border:0;
+       height: 100%;
+        
+        color: transparent;
+        
+      }
+    
+    
+      #autor{
+        
+        background:no-repeat center/80% url("media/caja.png");
+        border:0;
+        height: 100%;
+        width:100%;
+        color: transparent;
+    
+      }
+    
+      #ref{
+    
+        background:no-repeat center/80% url("media/bolsa.png");
+     height: 100%;
+        border:0;
+      width: 100%;
+       
+        color: transparent;
+        
+       
+      }
+    
+      #otros{
+        
+        background:no-repeat center/80% url("media/botella2.png");
+       height:100% ;
+        border:0;
+        
+        color: transparent;
+        width:100% ;
+      }
+
+      p{
+        font-size: large;
+      }
+#eje{
+  width:100%;
+}
+  iframe{
+    width: 100%;
+    height:30rem;
+  }
+a{
+  display: inline;
+}
+
+  @media (orientation:portrait){
+
+  .abs-center{
+  margin-top: 10%;
+  }
+  .margen{
+    margin-top: 95%;
+    margin-left: 8%;
+    display: inline-block;
+   
+  }
+  
+   #marco{
+    width: 100%;
+  }
+
+      
+    .margen{
+      display: inline-block;
+      width: 20%;
+      margin-top: 105%;
+      margin-left: 4%;
+    }
+
+    
+    p{
+      font-size: medium;
+    }
+}
+
+
