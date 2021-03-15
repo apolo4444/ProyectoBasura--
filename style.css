@@ -127,6 +127,7 @@ button:active {
 .active:before {
   color: red;
 }
+
 @media (orientation:portrait){
   video  {
     width: 100%;
