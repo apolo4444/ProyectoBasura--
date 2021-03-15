@@ -129,7 +129,7 @@ button:active {
 }
 @media (orientation:portrait){
   video  {
-    width: 150%;
+    width: 200%;
   }
   .controls{
     margin-top: 84%;
